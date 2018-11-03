@@ -25,6 +25,9 @@ public class StrBuffernBuilderwithSingleThrd {
 		}
 		System.out.println("Buffers : " + (System.currentTimeMillis() - t0));
 
+		
+		//String builder will be faster in single threaded env as methods are not synchronized 
+		// no locking on methods
 		t0 = System.currentTimeMillis();
 		StringBuilder building = new StringBuilder();
 		for (int i = 0; i < 10000; i++) {

@@ -20,6 +20,8 @@ public class StrBuffernBuilderwithMultiThrd {
 		System.out.println(" Thread Buffer : " + AppendableRunnable.time);
 
 		// With Builder
+		// try running this program multiple times , u will notice string builder failing with
+		// concurrent modification exception as it is not synchronized
 		AppendableRunnable.time = 0;
 		executorService = (ThreadPoolExecutor) Executors.newFixedThreadPool(10);
 		StringBuilder builder = new StringBuilder();
