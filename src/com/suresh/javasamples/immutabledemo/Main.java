@@ -1,4 +1,4 @@
-package com.suresh.javasamples;
+package com.suresh.javasamples.immutabledemo;
 
 public class Main {
 

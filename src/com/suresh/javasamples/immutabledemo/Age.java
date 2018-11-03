@@ -1,4 +1,5 @@
-package com.suresh.javasamples;
+package com.suresh.javasamples.immutabledemo;
+
 
 public class Age {
     private int day;

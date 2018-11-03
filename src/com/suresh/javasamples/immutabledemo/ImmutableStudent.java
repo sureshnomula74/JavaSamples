@@ -1,4 +1,4 @@
-package com.suresh.javasamples;
+package com.suresh.javasamples.immutabledemo;
 
 // very simple immutable class which doesn’t hold any mutable object and never expose its fields in any way; 
 //these type of classes are normally used for caching purposes.
