@@ -3,6 +3,7 @@ package com.suresh.javasamples.stringreverse;
 /*
  * 
  * String reverse without using inbuilt methods.
+ * This logic can also be used for palandrome using string rev
  * 
  */
 
@@ -24,7 +25,6 @@ public class StrinRevMain {
 			return;
 
 		reverseStr();
-
 	}
 
 	public static void main(String[] args) {
